@@ -17,7 +17,7 @@ A collection of serial, vectorized and parallel version of PLDM dynamics. The re
     - Force  → calculates the force on the bath DOF's from the system dynamics
             $$F(R_i)=c_j^i\sum_i\rho_{ii}$$
     - Umap   → propagates the mapping variables according to chebyshev expansion
-    $$e^{-i\frac{\hat{H}_{\mathrm{HTC}}\Delta}{\hbar}}\ket{\Psi}=b_0(z)|\Psi^{(0)}\rangle+\sum_{n=1}^{\infty} \phi_n(z) b_n(z) |\Psi^{(n)}\rangle$$
+    $$e^{-i\frac{\hat{H}\Delta}{\hbar}}\ket{\Psi}=b_0(z)|\Psi^{(0)}\rangle+\sum_{n=1}^{\infty} \phi_n(z) b_n(z) |\Psi^{(n)}\rangle$$
     - velver → propagates the nuclei 
 - `trajClass.py` defines a trajectory class
 
